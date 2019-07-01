@@ -3,7 +3,7 @@ class AddSpace():
     def add_space(a: int) -> str:
         """Creating white characters dependent on ,,a''."""
         if a <= 9:
-            string = "      "
+            string = "     "
         elif a <= 99:
             string = "     "
         elif a <= 999:
